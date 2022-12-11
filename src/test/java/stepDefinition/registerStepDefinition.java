@@ -25,7 +25,7 @@ public class registerStepDefinition  {
     
    driver.get("https://www.amazon.fr");
    driver.manage().window().maximize();
-   
+   Thread.sleep(2000);
    driver.findElement(By.xpath("//*[@id=\"sp-cc-rejectall-container\"]")).click();
   
 	}
